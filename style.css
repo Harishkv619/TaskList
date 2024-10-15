@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background-color:rgb(230, 227, 227);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#addTaskButton {
+    padding: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#addTaskButton:hover {
+    transform: scale(1.1);
+}
+
+#removeTaskButton {
+    padding: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#removeTaskButton:hover {
+    transform: scale(1.1);
+}
+
+ol {
+    padding-left: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px 0; 
+}
